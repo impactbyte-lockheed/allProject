@@ -1,0 +1,19 @@
+$font-color: purple;
+%test {
+    border: solid 1px black;
+}
+
+h1 {
+    color: $font-color;
+}
+
+p {
+    color: $font-color;
+    @extend %test;
+}
+
+@import "test";
+
+li {
+    background: $blue-color;
+}

@@ -1,0 +1,14 @@
+@import "variables";
+
+.form-size {
+    @extend %display-center;
+}
+
+.title {
+    @extend %title-text;
+}
+
+.app-container,
+.app-container input {
+    font-size: 18px;
+}

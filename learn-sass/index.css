@@ -1,0 +1,25 @@
+main, main h1, main p {
+  border-style: solid;
+  border-color: green;
+  border-width: 1px;
+  margin: 100px 50px 20px 40px;
+  padding: 100px 50px;
+}
+
+h1 {
+  color: green;
+  font-size: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.red-color {
+  color: red;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+/*# sourceMappingURL=index.css.map */

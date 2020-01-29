@@ -1,0 +1,9 @@
+.title {
+    text-align: center;
+}
+
+.profileImage {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "learn-npm",
+  "version": "1.0.0",
+  "description": "this is repository for learn yarn",
+  "main": "index.js",
+  "author": "miftahmfaris",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  }
+}

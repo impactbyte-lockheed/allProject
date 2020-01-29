@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    margin: 10px auto;
+}
+
+.carousel-item img{
+    height: 600px;
+    width: 500px !important;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+#about-me {
+    text-align: center;
+    margin: 3rem 7rem;
+    line-height: 1.5;     
+}
+
+hr{
+    border: 0.5px solid grey;
+    margin: 30px 100px;
+}
+
+#card-container{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 20px;
+}
+
+footer{
+    text-align: center;
+}
+
+.footer-navigation-list{
+    padding: 0px;
+}
+
+.footer-navigation-list li{
+    display: inline;
+    font-size: 40px;
+    font-weight: 100;
+    color: black;
+}

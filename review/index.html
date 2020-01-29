@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Register</h1>
+    <h1 id="titleName"></h1>
+    <div id="profile-image"></div>
+
+    <form onsubmit="submitForm(event)">
+        <input type="text" id="firstName" name="firstName">
+        <input type="text" id="lastName" name="lastName">
+        <button type="submit">register</button>
+    </form>
+
+    <button onclick="deleteStorage()">delete</button>
+
+    <main>
+        <form onsubmit="addTodo(event)">
+            <input type="text" id="todos" name="todo" placeholder="Add Todo">
+            <button type="submit">Add</button>
+        </form>
+
+        <div id="list-todos">
+        </div>
+        <div id="list-person">
+            <h1>Person</h1>
+        </div>
+    </main>
+
+
+    <script src="index.js"></script>
+    <script src="oop.js"></script>
+    <script src="./fetch.js"></script>
+    <script type="module" src="./exportData.js"></script>
+    <script type="module" src="./importData.js"></script>
+
+</body>
+
+</html>
