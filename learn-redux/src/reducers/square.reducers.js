@@ -15,26 +15,22 @@ export default (state = initialState, action) => {
   switch (action.type) {
     case INCREMENT:
       return {
-        sisi: state.sisi + 1,
-        luas: state.luas,
-        keliling: state.keliling
+        ...state,
+        sisi: state.sisi + 1
       };
     case DECREMENT:
       return {
-        sisi: state.sisi - 1,
-        luas: state.luas,
-        keliling: state.keliling
+        ...state,
+        sisi: state.sisi - 1
       };
     case LUAS:
       return {
-        sisi: state.sisi,
-        luas: state.sisi * state.sisi,
-        keliling: state.keliling
+        ...state,
+        luas: state.sisi * state.sisi
       };
     case KELILING:
       return {
-        sisi: state.sisi,
-        luas: state.luas,
+        ...state,
         keliling: state.sisi * 4
       };
     default:
