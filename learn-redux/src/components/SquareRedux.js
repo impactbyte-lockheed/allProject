@@ -48,10 +48,11 @@ function Square(props) {
 }
 
 const mapStateToProps = state => {
+  console.log(state);
   return {
-    sisi: state.sisi,
-    luas: state.luas,
-    keliling: state.keliling
+    sisi: state.square.sisi,
+    luas: state.square.luas,
+    keliling: state.square.keliling
   };
 };
 
